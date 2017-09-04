@@ -1,29 +1,25 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
-import {FaHome} from 'react-icons/lib/fa'
+import MdIconPack, {MdMenu} from 'react-icons/lib/md'
+import {FaBars} from 'react-icons/lib/fa'
 import styled from 'styled-components';
-import logo from './logo.svg';
-import './App.css';
 import Home from './components/Home';
 
 const Nav = styled.div`
-background-color: rgba(182, 199, 191, 0.2);
-display: flex;
-justify-content: space-between;
-align-items: center;
-padding: 45px 5vw;
-width: 100vw;
-height: 15px;
-border-bottom: 2px solid rgba(0,0,0,.0975);
-p{
-  font-size: 2.55rem;
-  font-family: 'Oleo Script', cursive;
-  margin: 0;
-  svg{
-    margin-bottom: 5px;
-  }
-}
-`
+  background-color: rgba(0,0,0,0);
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 55px 5vw;
+  width: 90vw;
+  height: 0px;
+    div{
+      font-size: 2.55rem;
+      font-family: 'Oleo Script', cursive;
+      margin: 0;
+      svg{ margin-bottom: 5px; }
+}`
 
 const Footer = styled.p`
   background-color: rgba(0,0,0,.55);
@@ -39,10 +35,8 @@ const Footer = styled.p`
       color: white;
       font-size: 1rem;
       margin: 0;
-      svg{ 
-        margin-bottom: 5px; }
-    }
-`
+      svg{ margin-bottom: 5px; }
+}`
 
 class App extends Component {
   render() {
@@ -50,10 +44,12 @@ class App extends Component {
       <Router>
         <div>
         <Nav>
-          <p><Link to="/"><FaHome /></Link></p>
+        <div><Link to="/"><img src='https://i.imgur.com/xbjybr3.png' className='logo-style'/></Link></div>
+          <div></div>
+          <div className='menu-color'>Menu<Link to="/"><MdMenu /></Link></div>
         </Nav>
 
-          <Home />
+        
           
           <Footer>
             <p>© 2017 by Richard Kim</p>
