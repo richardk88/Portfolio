@@ -44,7 +44,7 @@ class App extends Component {
       <Router>
         <div>
         <Nav>
-        <div><Link to="/"><img src='https://i.imgur.com/xbjybr3.png' className='logo-style'/></Link></div>
+        <div><Link to="/"><img src='https://i.imgur.com/UJC52lF.png' className='logo-style'/></Link></div>
           <div></div>
           <div className='menu-color'>Menu<Link to="/"><MdMenu /></Link></div>
         </Nav>
