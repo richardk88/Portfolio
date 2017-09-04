@@ -20,18 +20,22 @@ body {
     color: #31E8AE;
     font-size: 4rem;
   }
+    .menu-bar:hover {
+      color: #1A8C67;
+    }
+
 
 .logo-style {
   width: 24%;
 }
 
-.main_img {
+.home_img {
   width: 100%;
 }
   #background {
     width: 100%;
     height: 100%;
-    position: fixed;
+    /* position: fixed; */
     left: 0px;
     top: -70px;
     z-index: -1;
