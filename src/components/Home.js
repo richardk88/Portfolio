@@ -7,7 +7,7 @@ class Home extends Component {
     render() {
         return (
             <div id="background">
-                <img src='https://i.imgur.com/hBzZu6F.png' className='main_img'/>
+                <img src='https://i.imgur.com/T9YYqKP.png' className='main_img'/>
             </div>
         );
     }
