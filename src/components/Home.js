@@ -6,8 +6,8 @@ import { Link, Redirect } from 'react-router-dom';
 class Home extends Component {
     render() {
         return (
-            <div>
-                <img src='https://i.imgur.com/BcEEfR3.png' className='main_img'/>
+            <div id="background">
+                <img src='https://i.imgur.com/hBzZu6F.png' className='main_img'/>
             </div>
         );
     }
