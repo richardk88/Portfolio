@@ -4,30 +4,27 @@ body {
   font-family: 'Libre Franklin', sans-serif;
 }
 
-/* .sc-bdVaJa.bLKdLu {
-  width: 100%;
-  font-size: 20rem;
-} */
-  .menu-container {
-    height: 50px;
-  }
-  .menu-text {
-    color: white;
-    font-size: 1.5rem;
-    margin-bottom: 10px;
-  }
-  .menu-bar {
-    color: #31E8AE;
-    font-size: 4rem;
-  }
-    .menu-bar:hover {
-      color: #1A8C67;
-    }
 
+.navbar-container {
+  background: rgba(159, 36, 36, 0.00);
+  border-color: rgba(0,0,0,0);
 
-.logo-style {
-  width: 24%;
 }
+  .navbar-brand {
+    margin: 0px;
+  }
+  .logo-style {
+  width: 60px;
+  }
+    .logo-img {
+      width:90px;
+    }
+  .navbar-nav>li>a {
+    color: #25E9B3 !important;
+  }
+  span.icon-bar {
+    background-color: #25E9B3 !important;
+  }
 
 .home_img {
   width: 100%;
