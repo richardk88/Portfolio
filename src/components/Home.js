@@ -7,14 +7,16 @@ class Home extends Component {
     render() {
         return (
             <div className="background">
-                <div className='greeting'>
+                {/* <div className='greeting'>
+                    <div className='home_img'>
                     <img src='https://i.imgur.com/T9YYqKP.png?2' className='home_img'/>
-                        <div>
-                            <p>Richard Kim</p>
+                        <div className='greeting-text'>
+                            <p className='name'>Richard Kim</p>
                             <p>Creative Full-Stack Web Developer</p>
                             <p>Blurring the line between creativity & technology.</p>
                         </div>
-                </div>
+                    </div>
+                </div> */}
             </div>
         );
     }
