@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
-import { Nav, Navbar, NavItem, NavDropdown, MenuItem } from 'react-bootstrap';
+import { Nav, Navbar, NavItem, Image } from 'react-bootstrap';
 import MdIconPack, {MdMenu} from 'react-icons/lib/md'
 import {FaBars} from 'react-icons/lib/fa'
 import styled from 'styled-components';
@@ -30,14 +30,12 @@ class App extends Component {
           <Navbar inverse fixedTop collapseOnSelect className='navbar-container'>
             <Navbar.Header>
               <Navbar.Brand>
-                <div className='logo-style'>
-                  <a href='/'><img src='https://i.imgur.com/UJC52lF.png' className='logo-img'/></a>
-                </div>
+                  <a href='/'><Image src='https://i.imgur.com/UJC52lF.png' className='logo-img' responsive/></a>                
               </Navbar.Brand>
               <Navbar.Toggle />
             </Navbar.Header>
-            <Navbar.Collapse >
-              <Nav pullRight >
+            <Navbar.Collapse>
+              <Nav pullRight className='text-right'>
                   <NavItem eventKey={1} href="#">Home</NavItem>
                   <NavItem eventKey={2} href="#">About</NavItem>
                   <NavItem eventKey={3} href="#">Projects</NavItem>

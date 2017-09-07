@@ -10,11 +10,13 @@ class Home extends Component {
                 {/* <div className='greeting'>
                     <div className='home_img'>
                     <img src='https://i.imgur.com/T9YYqKP.png?2' className='home_img'/>
-                        <div className='greeting-text'>
-                            <p className='name'>Richard Kim</p>
+                        <div className='greeting-text'> */}
+                        <div className='name'>
+                            <p>Richard Kim</p>
                             <p>Creative Full-Stack Web Developer</p>
                             <p>Blurring the line between creativity & technology.</p>
                         </div>
+                        {/* </div>
                     </div>
                 </div> */}
             </div>
