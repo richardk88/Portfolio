@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
-import { Nav, Navbar, NavItem, Image } from 'react-bootstrap';
 import MdIconPack, {MdMenu} from 'react-icons/lib/md'
 import {FaBars} from 'react-icons/lib/fa'
 import styled from 'styled-components';
+import NavBar from './components/NavBar';
 import Home from './components/Home';
 
 const Footer = styled.p`
@@ -27,22 +27,7 @@ class App extends Component {
     return (
       <Router>
         <div>
-          <Navbar inverse fixedTop collapseOnSelect className='navbar-container'>
-            <Navbar.Header>
-              <Navbar.Brand>
-                  <a href='/'><Image src='https://i.imgur.com/UJC52lF.png' className='logo-img' responsive/></a>                
-              </Navbar.Brand>
-              <Navbar.Toggle />
-            </Navbar.Header>
-            <Navbar.Collapse>
-              <Nav pullRight className='text-right'>
-                  <NavItem eventKey={1} href="#">Home</NavItem>
-                  <NavItem eventKey={2} href="#">About</NavItem>
-                  <NavItem eventKey={3} href="#">Projects</NavItem>
-                  <NavItem eventKey={4} href="#">Contact</NavItem>
-              </Nav>
-            </Navbar.Collapse>
-          </Navbar>
+          <NavBar />
 
           <Home />
           
