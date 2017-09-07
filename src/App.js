@@ -28,11 +28,10 @@ class App extends Component {
       <Router>
         <div>
           <NavBar />
-
           <Home />
           
           <Footer staticBottom>
-            <p>© 2017 by Richard Kim</p>
+            <p>© <span className='footer-year'>201</span>7 Richard Kim. All rights reserved.</p>
           </Footer>
  
         </div>
