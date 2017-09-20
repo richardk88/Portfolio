@@ -17,7 +17,7 @@ class NavBar extends Component {
                             <NavItem eventKey={1} href="#">Home</NavItem>
                             <NavItem eventKey={2} href="#">About</NavItem>
                             <NavItem eventKey={3} href="#">Projects</NavItem>
-                            <NavItem eventKey={4} href="#">Contact</NavItem>
+                            <NavItem eventKey={4} href="#"><button className='contactBtn'>Contact</button></NavItem>
                         </Nav>
                     </Navbar.Collapse>
                 </Navbar>

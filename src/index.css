@@ -9,6 +9,9 @@ body {
   background: rgba(159, 36, 36, 0.00);
   border-color: rgba(0,0,0,0);
 }
+  .NavItem:hover {
+    background-color: yellow;
+  }
 .navbar-brand {
   margin: 0px;
 }
@@ -19,14 +22,24 @@ width: 60px;
     width:70px;
   }
 .navbar-nav>li>a {
-  color: #21DEAA !important;
+  color: #3EE7AD !important;
 }
 span.icon-bar {
-  background-color: #21DEAA !important;
+  background-color: #3EE7AD !important;
+}
+.navbar-collapse {
+  border-color: rgba(0, 0, 0, 0) !important;
+}
+.contactBtn {
+  color: white;
+  background-color: #3EE7AD ;
+  border: 1px solid rgba(0, 0, 0, 0);
+  border-radius: 3px;
+  padding: 3px 10px
 }
 
 /* Home Component */
-.background {
+.background-img {
   background-image: url('https://i.imgur.com/T9YYqKP.png?2');
   background-position: center center;
   background-repeat: no-repeat;
@@ -34,16 +47,28 @@ span.icon-bar {
   width: 100vw;
   height: 100vh;
 }
-  
-   .name {
-    color: white;
-    font-size: 2rem;
-    letter-spacing: 2.2px;
-    text-decoration: underline;
-    text-decoration-color: #21DEAA;
-    text-underline-position: under;
-    font-family: 'Montserrat', sans-serif;
+  .greeting {
+  color: white;
+  font-size: 2rem;
+  letter-spacing: 2.2px;
+  padding-top: 50vh;
+  padding-left: 10vw;
   }
+.name {
+  font-family: 'Montserrat', sans-serif;
+}
+  .first-name {
+    color: #3EE7AD;
+  }
+  .last-name {
+
+  }
+.blurb1 {
+
+}
+.blurb2 {
+
+}
 
 
   /* Footer */
@@ -51,3 +76,15 @@ span.icon-bar {
     font-size: .85rem;
     font-family: 'Montserrat', sans-serif;
   }
+
+
+
+/* Medium Screen */
+@media only screen and (max-width: 500px) {
+  
+}
+
+/* Small Screen */
+@media only screen and (max-width: 350px) {
+  
+}
