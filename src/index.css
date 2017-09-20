@@ -6,8 +6,8 @@ body {
 
 /* NavBar Component */
 .navbar-container {
-  background: rgba(159, 36, 36, 0.00);
-  border-color: rgba(0,0,0,0);
+  border-bottom: none;
+  background: linear-gradient(rgba(255, 255, 255, 0.71), rgba(255, 255, 255, 0.31), rgba(255, 255, 255, 0));
 }
   .NavItem:hover {
     background-color: yellow;
