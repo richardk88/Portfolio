@@ -51,39 +51,34 @@ button.navbar-toggle {
   width: 100vw;
   height: 100vh;
 }
-  .greeting {
+.greeting {
   color: white;
   font-size: 2rem;
   letter-spacing: 2.2px;
   padding-top: 48vh;
   padding-left: 10vw;
-  }
-.name {
-  font-family: 'Montserrat', sans-serif;
 }
-  .first-name {
-    color: #3EE7AD;
-    font-family: 'Libre Baskerville', serif;
-    font-size: 5rem;
-    letter-spacing: 4px;
-  }
-  .last-name {
-    padding-left: 5px;
-    font-family: 'Scope One', serif;
-    font-size: 3rem;
-    letter-spacing: 4px;
-  }
+.name {
+  font-family: 'Merriweather', serif;
+}
+.first-name {
+  color: #3EE7AD;
+  font-size: 5.5rem;
+  letter-spacing: 4px;
+}
+.last-name {
+  padding-left: 5px;
+  font-size: 3rem;
+  letter-spacing: 4px;
+}
 .blurb1 {
-
+  font-size: 1.75rem;
 }
 .blurb2 {
-
-}
-.scrollDownContainer {
-  text-align: center;
-}
-.scrollDownIcon {
-  width: 130px;
+  font-size: 1.75rem;
+  text-decoration: line-through;
+  text-decoration-color: rgba(62, 231, 172, 0.69);
+  
 }
 
 
