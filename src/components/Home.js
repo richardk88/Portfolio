@@ -7,6 +7,7 @@ class Home extends Component {
     render() {
         return (
             <div className="background-img">
+                <div className='hello'>HELLO</div>
                 <div className='greeting'>
                     <p className='name'>
                         <span className='first-name'>Richard</span>
