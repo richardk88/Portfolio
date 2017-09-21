@@ -12,11 +12,8 @@ class Home extends Component {
                         <span className='first-name'>Richard</span>
                         <span className='last-name'>Kim</span>
                     </p>
-                    <p className='blurb1'>Creative Full-Stack Web Developer</p>
+                    <p className='blurb1'>Full-Stack Web Developer</p>
                     <p className='blurb2'>Blurring the line between creativity & technology.</p>
-                </div>
-                <div className='scrollDownContainer'>
-                    <img src={require('./images/down.gif')} className='scrollDownIcon'/>
                 </div>
             </div>
         );
