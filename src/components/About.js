@@ -9,6 +9,9 @@ class About extends Component {
                         <div className='wheel'></div>
                     </div>
                 </div>
+                <div className='about'>
+                    <h1>A<span className='underline'>BOU</span>T</h1>
+                </div>
             </div>
         );
     }

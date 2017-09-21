@@ -54,7 +54,7 @@ button.navbar-toggle {
 .greeting {
   color: white;
   letter-spacing: 2.2px;
-  padding-top: 44vh;
+  padding-top: 49vh;
   padding-left: 10vw;
 }
 .hello {
@@ -80,14 +80,14 @@ button.navbar-toggle {
 }
 .blurb1 {
   font-size: 1.75rem;
+  font-family: 'Scope One', serif;
 }
 .blurb2 {
+  font-family: 'Scope One', serif;
   font-size: 1.75rem;
   text-decoration: line-through;
   text-decoration-color: rgba(62, 231, 172, 0.69);
-  
 }
-
 
 /* Scroll Mouse Animation */
 .scrollMouse {
@@ -154,8 +154,12 @@ button.navbar-toggle {
   }
   
 /* About */
-
-
+.about {
+  height: 70vh;
+}
+.underline {
+  text-decoration: underline;
+}
 
 /* Footer */
 
