@@ -8,7 +8,7 @@ const Style = styled.p`
     height: .5vw;
     text-align: center;
     margin-bottom: 0;
-    padding: 30px 1vw;
+    padding: 50px 1vw;
     p{
         color: #696969;
         font-size: 1rem;

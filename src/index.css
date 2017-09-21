@@ -7,7 +7,7 @@ body {
 /* NavBar Component */
 .navbar-container {
   border-bottom: none;
-  background: linear-gradient(rgba(255, 255, 255, 0.71), rgba(255, 255, 255, 0.31), rgba(255, 255, 255, 0));
+  background: linear-gradient(rgba(255, 255, 255, 0.59), rgba(255, 255, 255, 0.20), rgba(255, 255, 255, 0));
 }
   .NavItem:hover {
     background-color: yellow;
@@ -51,7 +51,7 @@ span.icon-bar {
   color: white;
   font-size: 2rem;
   letter-spacing: 2.2px;
-  padding-top: 50vh;
+  padding-top: 48vh;
   padding-left: 10vw;
   }
 .name {
@@ -59,9 +59,15 @@ span.icon-bar {
 }
   .first-name {
     color: #3EE7AD;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 5rem;
+    letter-spacing: 4px;
   }
   .last-name {
-
+    padding-left: 5px;
+    font-family: 'Scope One', serif;
+    font-size: 3rem;
+    letter-spacing: 4px;
   }
 .blurb1 {
 
@@ -69,7 +75,12 @@ span.icon-bar {
 .blurb2 {
 
 }
-
+.scrollDownContainer {
+  text-align: center;
+}
+.scrollDownIcon {
+  width: 130px;
+}
 
 /* Footer */
 
