@@ -6,7 +6,7 @@ import { Nav, Navbar, NavItem, NavDropdown, MenuItem } from 'react-bootstrap';
 class Home extends Component {
     render() {
         return (
-            <div className="background-img">
+            <div className="background-img" id='home' >
                 <div className='hello'>HELLO</div>
                 <div className='greeting'>
                     <p className='name'>

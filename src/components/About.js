@@ -6,11 +6,13 @@ class About extends Component {
         return (
             <div>
                 <div className='scrollMouse'>
-                    <div className='mouse'>
-                        <div className='wheel'></div>
-                    </div>
+                    <a href='#about'>
+                        <div className='mouse'>
+                            <div className='wheel'></div>
+                        </div>
+                    </a>
                 </div>
-                <div className='about'>
+                <div className='about' id='about'>
                     <h1>A<span className='underline'>BOU</span>T</h1>
         
                     <div className='aboutContainer'>
@@ -30,8 +32,8 @@ class About extends Component {
                                 <img src={require('./images/ruby.png')} alt='ruby'/>
                                 <img src={require('./images/rails.png')} alt='rails'/>
                                 <img src={require('./images/javascript.png')} alt='javascript'/>
-                                <img src={require('./images/github.png')} alt='github'/>
-                                <img src={require('./images/heroku.png')} alt='heroku'/>
+                                <img src={require('./images/node-js.png')} alt='node'/>
+                                <img src={require('./images/mongodb.png')} alt='mongodb'/>
                             </div>
                         </div>
                     </div>

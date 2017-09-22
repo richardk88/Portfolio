@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Nav, Navbar, NavItem, Image } from 'react-bootstrap';
+import {Link} from 'react-router-dom';
 
 class NavBar extends Component {
     render() {
@@ -8,16 +9,16 @@ class NavBar extends Component {
                 <Navbar inverse fixedTop collapseOnSelect className='navbar-container'>
                     <Navbar.Header>
                         <Navbar.Brand>
-                            <a href='/'><Image src='https://i.imgur.com/UJC52lF.png' className='logo-img' responsive/></a>                
+                            <a href="#home"><Image src='https://i.imgur.com/UJC52lF.png' className='logo-img' responsive/></a>                
                         </Navbar.Brand>
                     <Navbar.Toggle />
                     </Navbar.Header>
                     <Navbar.Collapse>
                         <Nav pullRight className='text-right'>
-                            <NavItem eventKey={1} href="#">Home</NavItem>
-                            <NavItem eventKey={2} href="#">About</NavItem>
-                            <NavItem eventKey={3} href="#">Projects</NavItem>
-                            <NavItem eventKey={4} href="#"><button className='contactBtn'>Contact</button></NavItem>
+                            <NavItem eventKey={1} href="#home">Home</NavItem>
+                            <NavItem eventKey={2} href="#about">About</NavItem>
+                            <NavItem eventKey={3} href="#projects">Projects</NavItem>
+                            <NavItem eventKey={4} href="#contact" ><button className='contactBtn'>Contact</button></NavItem>
                         </Nav>
                     </Navbar.Collapse>
                 </Navbar>
