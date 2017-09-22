@@ -17,9 +17,9 @@ class About extends Component {
                     <div className='aboutContainer'>
                         <div className='aboutMe'>
                             <img src={require('./images/headshot.png')} className='headshot' />
-                            <p>
-                                I am a Full-Stack Web Developer based in Atlanta, GA. With experience in building richer interactive web apps I maintain a healthy balance between functionality and visual impact in all of my work. 
-                                Feel free to look at my portfolio and don't hesitate to contact me if you think I can be of service to you. 
+                            <p className='paragraph'>
+                                Hi! I'm a Full-Stack Web Developer based in Atlanta, GA. I really enjoy building clean, responsive web apps by maintaining a healthy balance between functionality and a richer user experience in all of my work. 
+                                Let me know if you think I can be of service to you. 
                                 Thanks for stopping by!
                             </p>
                         </div>
