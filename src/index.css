@@ -35,7 +35,7 @@ span.icon-bar {
   color: white;
   background-color: #3EE7AD ;
   border: 1px solid rgba(0, 0, 0, 0);
-  border-radius: 3px;
+  border-radius: 2px;
   padding: 3px 10px
 }
 button.navbar-toggle {
@@ -72,7 +72,7 @@ button.navbar-toggle {
   color: #3EE7AD;
   font-size: 5.5rem;
   letter-spacing: 4px;
-  text-shadow: 2px 2px rgba(39, 38, 38, 0.85);
+  text-shadow: 2px 2px rgba(39, 38, 38, 0.8);
 }
 .last-name {
   padding-left: 5px;
@@ -184,8 +184,9 @@ button.navbar-toggle {
   width: 20vw;
 }
 .paragraph {
-  padding-top: 10px;
+  padding: 10px 0 0 5px;
   letter-spacing: .5px;
+  border-left: 2px solid #3EE7AD;
 }
 .skills {
   width: 50vw;
@@ -202,10 +203,76 @@ button.navbar-toggle {
 
 
 /* PROJECTS */
-#projects {
-  background-color: grey
+.projects {
+  background-color: #151515;
+  text-align: center;
+  height: 70vh;
+  padding: 10vh 0 5vh 0;
+}
+.projectsTitle {
+  color: white;
+  font-family: 'Scope One', serif;
+}
+.projectContainer {
+  flex-wrap: wrap;
 }
 
+
+/* CONTACT */
+.contact {
+  text-align: center;
+  margin: 100px 70px 70px 70px;
+}
+.contactTitle {
+  font-family: 'Scope One', serif;
+}
+.contact-form {
+  padding: 0px 15px 0px 15px;
+}
+.form-control {
+  border: 2px solid rgba(0, 0, 0, 0.27);
+  width: 100%;
+  max-width: 100%;
+  height: 3em;
+  font-size: 16px;
+  padding: 1em;
+  margin: .5em 0 2em 0;
+  font-weight: bold;
+}
+textarea {
+  min-height: 10em;
+}
+label {
+  display: inline-block;
+  max-width: 100%;
+  margin-bottom: 5px;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+#submit {
+  outline: none;
+  padding: 12px;
+  min-width: 200px;
+  border-radius: 2px;
+  border: 2px solid #FF6363;
+  text-align: center;
+  font-size: 1em;
+  color: #FF6363;
+  background-color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+#submit:hover {
+  background-color: #FF6363;
+  color: white;
+  -webkit-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
 
 
 /* FOOTER */

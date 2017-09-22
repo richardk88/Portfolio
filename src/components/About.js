@@ -4,7 +4,7 @@ class About extends Component {
 
     render() {
         return (
-            <div>
+            <div id='about'>
                 <div className='scrollMouse'>
                     <a href='#about'>
                         <div className='mouse'>
@@ -12,15 +12,14 @@ class About extends Component {
                         </div>
                     </a>
                 </div>
-                <div className='about' id='about'>
+                <div className='about'>
                     <h1 className='aboutTitle'>A<span className='underline'>BOU</span>T</h1>
                     <div className='aboutContainer'>
                         <div className='aboutMe'>
                             <img src={require('./images/headshot.png')} className='headshot' />
                             <p className='paragraph'>
-                                Hi! I'm a Full-Stack Web Developer based in Atlanta, GA. I really enjoy building clean, responsive web apps by maintaining a healthy balance between functionality and a richer user experience in all of my work. 
-                                Let me know if you think I can be of service to you. 
-                                Thanks for stopping by!
+                                Hi! I'm a Atlanta based Full-Stack Web Developer focused on creating clean, responsive web apps by maintaining a healthy balance between functionality and a richer user experience in all of my work. 
+                                Whether you're interested in working with me or just want to say hello, I'd love to hear from you!
                             </p>
                         </div>
                         <div className='skills'>
