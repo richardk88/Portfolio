@@ -13,8 +13,7 @@ class About extends Component {
                     </a>
                 </div>
                 <div className='about' id='about'>
-                    <h1>A<span className='underline'>BOU</span>T</h1>
-        
+                    <h1 className='aboutTitle'>A<span className='underline'>BOU</span>T</h1>
                     <div className='aboutContainer'>
                         <div className='aboutMe'>
                             <img src={require('./images/headshot.png')} className='headshot' />

@@ -161,6 +161,9 @@ button.navbar-toggle {
   padding: 70px 0;
   font-family: 'Scope One', serif;
 }
+.aboutTitle {
+  margin-bottom: 50px;
+}
 .underline {
   border-bottom: solid 2px #3EE7AD;
   display: inline;
@@ -175,6 +178,7 @@ button.navbar-toggle {
 }
 .aboutMe{
   width: 50vw;
+  padding: 0 50px;
 }
 .headshot {
   width: 20vw;
