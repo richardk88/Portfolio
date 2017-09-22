@@ -4,7 +4,7 @@ body {
   font-family: 'Libre Franklin', sans-serif;
 }
 
-/* NavBar Component */
+/* NAVBAR */
 .navbar-container {
   border-bottom: none;
   background: linear-gradient(rgba(255, 255, 255, 0.59), rgba(255, 255, 255, 0.20), rgba(255, 255, 255, 0));
@@ -42,7 +42,7 @@ button.navbar-toggle {
   border: 1px solid white !important;
 }
 
-/* Home Component */
+/* HOME */
 .background-img {
   background-image: url('https://i.imgur.com/T9YYqKP.png?2');
   background-position: center center;
@@ -72,6 +72,7 @@ button.navbar-toggle {
   color: #3EE7AD;
   font-size: 5.5rem;
   letter-spacing: 4px;
+  text-shadow: 2px 2px rgba(39, 38, 38, 0.85);
 }
 .last-name {
   padding-left: 5px;
@@ -89,7 +90,7 @@ button.navbar-toggle {
   text-decoration-color: rgba(62, 231, 172, 0.69);
 }
 
-/* Scroll Mouse Animation */
+/* MOUSE SCROLL ANIMATION */
 .scrollMouse {
   margin-top: -80px;
   position: absolute;
@@ -153,18 +154,49 @@ button.navbar-toggle {
     }
   }
   
-/* About */
+/* ABOUT */
 .about {
   height: 70vh;
+  text-align: center;
+  padding: 70px 0;
+  font-family: 'Scope One', serif;
 }
 .underline {
-  text-decoration: underline;
+  border-bottom: solid 2px #3EE7AD;
+  display: inline;
+  padding-bottom: 1px;
+}
+.aboutContainer {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.aboutMe{
+  width: 50vw;
+}
+.headshot {
+  width: 20vw;
+}
+.skills {
+  width: 50vw;
+  padding: 50px;
+}
+.skill{
+  width: auto;
+  flex-wrap: wrap;
+}
+.skill img{
+  width: 90px;
+  margin: 15px;
 }
 
-/* Footer */
+
+/* FOOTER */
 
 
-/* Medium Screen */
+/* MEDIUM SCREEN */
 @media only screen and (max-width: 750px) {
   .hello {
     width: 100vw;
@@ -175,7 +207,7 @@ button.navbar-toggle {
   }
 }
 
-/* Small Screen */
+/* SMALL SCREEN */
 @media only screen and (max-width: 460px) {
   .hello {
     width: 100vw;
