@@ -172,7 +172,7 @@ button.navbar-toggle {
 .aboutContainer {
   display: flex;
   flex-direction: row;
-  align-content: center;
+  align-items: center;
   justify-content: space-around;
   flex-wrap: wrap;
 }
@@ -206,6 +206,7 @@ button.navbar-toggle {
 .projects {
   background-color: #151515;
   text-align: center;
+  width: 100vw;
   height: 70vh;
   padding: 10vh 0 5vh 0;
 }
@@ -213,8 +214,16 @@ button.navbar-toggle {
   color: white;
   font-family: 'Scope One', serif;
 }
-.projectContainer {
-  flex-wrap: wrap;
+/* .projectContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  max-width: 100vw;
+} */
+.projectImage {
+  width: 390px;
+  height: auto;
 }
 
 
