@@ -221,10 +221,15 @@ button.navbar-toggle {
 /* CONTACT */
 .contact {
   text-align: center;
-  margin: 100px 70px 70px 70px;
+  background-color: rgb(242, 242, 242);
+  padding: 100px 70px 70px 70px;
+}
+.contact p {
+  font-size: 2rem;
 }
 .contactTitle {
   font-family: 'Scope One', serif;
+  padding-bottom: 20px;
 }
 .contact-form {
   padding: 0px 15px 0px 15px;

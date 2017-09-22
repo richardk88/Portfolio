@@ -5,7 +5,7 @@ class Contact extends Component {
         return (
             <div className='contact' id='contact'>
                 <h1 className='contactTitle'>C<span className='underline'>ONTAC</span>T</h1>
-                <p>Whether you're interested in working with me or just want to say hello, I'd love to hear from you!</p>
+                <p>Have a question or want to work together?</p>
                 <br />
                 <div className="contact-form">
                     <form data-toggle="validator">
