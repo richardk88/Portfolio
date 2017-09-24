@@ -14,11 +14,11 @@ class NavBar extends Component {
                     <Navbar.Toggle />
                     </Navbar.Header>
                     <Navbar.Collapse>
-                        <Nav pullRight className='text-right'>
-                            <NavItem eventKey={1} href="#home">Home</NavItem>
-                            <NavItem eventKey={2} href="#about">About</NavItem>
-                            <NavItem eventKey={3} href="#projects">Projects</NavItem>
-                            <NavItem eventKey={4} href="#contact" ><button className='contactBtn'>Contact</button></NavItem>
+                        <Nav pullRight>
+                            <a href="#home"><NavItem eventKey={1} href="#home">Home</NavItem></a>
+                            <a href="#about"><NavItem eventKey={2} href="#about">About</NavItem></a>
+                            <a href="#projects"><NavItem eventKey={3} href="#projects">Projects</NavItem></a>
+                            <a href="#contact"><NavItem eventKey={4} href="#contact"><button className='contactBtn'>Contact</button></NavItem></a>
                         </Nav>
                     </Navbar.Collapse>
                 </Navbar>
