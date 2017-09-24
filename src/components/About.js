@@ -30,6 +30,7 @@ class About extends Component {
                                 <img src={require('./images/ruby.png')} alt='ruby' className='hvr-grow'/>
                                 <img src={require('./images/rails.png')} alt='rails' className='hvr-grow'/>
                                 <img src={require('./images/javascript.png')} alt='javascript' className='hvr-grow'/>
+                                <img src={require('./images/jquery.png')} alt='jquery' className='hvr-grow'/>
                                 <img src={require('./images/node-js.png')} alt='node' className='hvr-grow'/>
                                 <img src={require('./images/mongodb.png')} alt='mongodb' className='hvr-grow'/>
                             </div>
