@@ -237,7 +237,7 @@ button.navbar-toggle {
 }
 .transition {
   width: 100vw;
-  padding: none;
+  margin-bottom: -2px;
 }
 
 
@@ -247,11 +247,12 @@ button.navbar-toggle {
   text-align: center;
   width: 100vw;
   height: 90vh;
-  padding: 10vh 0 5vh 0;
+  padding: 9vh 0 5vh 0;
 }
 .projectsTitle {
   color: white;
   font-family: 'Scope One', serif;
+  margin-bottom: 5vh;
 }
 /* .projectContainer {
   display: flex;
