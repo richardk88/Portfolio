@@ -191,7 +191,7 @@ button.navbar-toggle {
   font-family: 'Scope One', serif;
 }
 .aboutTitle {
-  margin-bottom: 50px;
+  margin-bottom: 40px;
 }
 .underline {
   border-bottom: solid 2px #3EE7AD;
@@ -246,24 +246,24 @@ button.navbar-toggle {
   background-color: black;
   text-align: center;
   width: 100vw;
-  height: 90vh;
-  padding: 9vh 0 5vh 0;
+  height: 80%;
+  padding: 9vh 0 9vh 0;
 }
 .projectsTitle {
   color: white;
   font-family: 'Scope One', serif;
-  margin-bottom: 5vh;
+  margin-bottom: 45px;
 }
-/* .projectContainer {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  max-width: 100vw;
-} */
+.projectContainer {
+
+}
 .projectImage {
+  margin: 3px;
   width: 380px;
   height: auto;
+}
+.comingSoon{
+  border: 1px solid rgba(255, 255, 255, 0.82);
 }
 
 
@@ -357,7 +357,12 @@ label {
     margin: 3px;
   }
   .projects {
-    height: 110vh;
+    height: 90vh;
+  }
+  .projectImage {
+    margin: 3px;
+    width: 350px;
+    height: auto;
   }
 }
 
@@ -391,5 +396,10 @@ label {
   }
   .projects {
     height: 190vh;
+  }
+  .projectImage {
+    margin: 3px;
+    width: 300px;
+    height: auto;
   }
 }
