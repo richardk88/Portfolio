@@ -10,7 +10,7 @@ body {
   background: linear-gradient(rgba(255, 255, 255, 0.59), rgba(255, 255, 255, 0.20), rgba(255, 255, 255, 0));
 }
   .NavItem:hover {
-    background-color: yellow;
+    background-color: gold;
   }
 .navbar-brand {
   margin: 0px;
@@ -217,6 +217,12 @@ button.navbar-toggle {
   letter-spacing: .5px;
   border-left: 2px solid #3EE7AD;
 }
+.contactMe {
+  color: #3BD49C;
+}
+.contactMe:hover {
+  color: #3BD49C;
+}
 .skills {
   width: 50vw;
   padding: 50px;
@@ -229,11 +235,15 @@ button.navbar-toggle {
   width: 90px;
   margin: 15px;
 }
+.transition {
+  width: 100vw;
+  padding: none;
+}
 
 
 /* PROJECTS */
 .projects {
-  background-color: #151515;
+  background-color: black;
   text-align: center;
   width: 100vw;
   height: 90vh;
