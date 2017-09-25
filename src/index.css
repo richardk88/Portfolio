@@ -461,7 +461,7 @@ button.navbar-toggle {
     font-size: 1.15rem;
   }
   .about {
-    height: 85vh;
+    height: 90vh;
   }
   .skills {
     width: 100vw;
@@ -470,6 +470,9 @@ button.navbar-toggle {
   .skill img{
     width: 65px;
     margin: 9px;
+  }
+  .projectContainer {
+    margin-bottom: 15px;
   }
   .projects {
     height: 190vh;
