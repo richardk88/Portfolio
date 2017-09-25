@@ -4,7 +4,7 @@ class Projects extends Component {
     render() {
         return (
             <div className='projects' id='projects'>
-                <h1 className='projectsTitle'>P<span className='underline'>ROJECT</span>S</h1>
+                <h1 className='projectsTitle'><b>P<span className='underline'>ROJECT</span>S</b></h1>
                 <div container>
                     <div className='projectContainer'>
                         <a href='http://photographer-watches-86485.bitballoon.com/' target='blank'><img src={require('./images/hangman.png')} className='projectImage'/></a>

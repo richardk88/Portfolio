@@ -20,7 +20,7 @@ const Style = styled.p`
 const Footer = () => {
     return (
         <Style staticBottom>
-            <p>© 2017 Richard Kim. All rights reserved.</p>
+            <p><span className='year'>© 2017</span> Richard Kim. All rights reserved.</p>
         </Style>
     );
 };

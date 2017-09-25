@@ -42,7 +42,7 @@ span.icon-bar {
 }
 .navbar-right a:hover {
   margin: 10px;
-  color: #FF0C6D !important;
+  color: #FC022B !important;
 }
 .contactBtn {
   color: white;
@@ -52,7 +52,7 @@ span.icon-bar {
   padding: 3px 10px
 }
 .contactBtn:hover {
-  color: #FF0C6D !important;
+  color: #FC022B !important;
 }
   /* Grow */
   .hvr-grow {
@@ -224,7 +224,7 @@ button.navbar-toggle {
   color: #3BD49C;
 }
 .contactMe:hover {
-  color: #3BD49C;
+  color: #FC022B;
 }
 .skills {
   width: 50vw;
@@ -249,7 +249,7 @@ button.navbar-toggle {
   background-color: black;
   text-align: center;
   width: 100vw;
-  height: 90vh;
+  height: 100%;
   padding: 9vh 0 9vh 0;
 }
 .projectsTitle {
@@ -283,7 +283,8 @@ button.navbar-toggle {
   font-family: 'Scope One', serif;
   padding-bottom: 20px;
 }
-.contact-form {
+
+/* .contact-form {
   padding: 0px 15px 0px 15px;
 }
 .form-control {
@@ -329,11 +330,13 @@ label {
   -ms-transition: all 0.3s ease-out;
   -moz-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
-}
+} */
 
 
 /* FOOTER */
-
+.year {
+  color: rgba(62, 231, 172, 0.73);
+}
 
 /* MEDIUM SCREEN */
 @media only screen and (max-width: 770px) {
@@ -360,7 +363,7 @@ label {
     margin: 3px;
   }
   .projects {
-    height: 90vh;
+    height: 100%;
   }
   .projectImage {
     margin: 3px;
