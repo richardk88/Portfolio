@@ -421,29 +421,29 @@ label {
 /* SMALL SCREEN */
 @media only screen and (max-width: 460px) {
   .hello {
-    width: 100vw;
-    text-align: center;
-    position: absolute;
     margin-top: 140px;
-    font-size: 10rem;
+    font-size: 11rem;
   }
   .scrollMouse {
     margin-top: -130px;
   }
   .aboutMe{
     width: 100vw;
-    padding: 0 50px;
+    padding: 0 30px;
+    margin-top: 15px;
+  }
+  .aboutMe p {
+    font-size: 1.15rem;
   }
   .about {
     height: 85vh;
-    margin: 10vh 0 5vh 0;
   }
   .skills {
     width: 100vw;
-    padding: 0 30px;
+    margin-top: 10px;
   }
   .skill img{
-    width: 55px;
+    width: 65px;
     margin: 9px;
   }
   .projects {
