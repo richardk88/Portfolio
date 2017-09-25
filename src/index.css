@@ -274,7 +274,7 @@ button.navbar-toggle {
 .contact {
   text-align: center;
   background-color: rgb(242, 242, 242);
-  padding: 100px 70px 70px 70px;
+  padding: 85px 70px 70px 70px;
 }
 .contact p {
   font-size: 2rem;
@@ -283,7 +283,19 @@ button.navbar-toggle {
   font-family: 'Scope One', serif;
   padding-bottom: 20px;
 }
-
+.emailContainer {
+  margin-top: 15px;
+}
+.email {
+  background-color: #3BD49C;
+  color: white;
+  border-radius: 5px;
+  font-size: 1.7rem;
+  padding: 18px 35px;
+}
+.email:hover {
+  
+}
 /* .contact-form {
   padding: 0px 15px 0px 15px;
 }

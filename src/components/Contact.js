@@ -7,7 +7,7 @@ class Contact extends Component {
                 <h1 className='contactTitle'><b>C<span className='underline'>ONTAC</span>T</b></h1>
                 <p>Have a question or want to work together?</p>
                 <br />
-                
+                <p className='emailContainer'><a href="mailto:rkim0788@gmail.com" className='email'>Email Me</a></p>
             </div>
         );
     }
