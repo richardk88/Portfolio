@@ -22,8 +22,8 @@ const Footer = () => {
     return (
         <Style staticBottom>
             <div className='icons'>
-                <a href='https://www.linkedin.com/in/richardk88/' target='blank'><div className='iconBox'><FaLinkedin size={25}/></div></a>
-                <a href='https://github.com/richardk88' target='blank'><div className='iconBox'><FaGithub size={25}/></div></a>
+                <a href='https://www.linkedin.com/in/richardk88/' target='blank'><div className='iconBox hvr-trim'><FaLinkedin size={25}/></div></a>
+                <a href='https://github.com/richardk88' target='blank'><div className='iconBox hvr-trim'><FaGithub size={25}/></div></a>
             </div>
             <p><span className='year'>© 2017</span> Richard Kim. All rights reserved.</p>
         </Style>
