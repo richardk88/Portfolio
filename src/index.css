@@ -259,7 +259,7 @@ button.navbar-toggle {
   margin-bottom: 45px;
 }
 .projectContainer {
-
+  margin-bottom: 15px;
 }
 .projectImage {
   border: 1px solid white;
@@ -431,7 +431,7 @@ button.navbar-toggle {
   }
   .projects {
     height: 100%;
-    margin-bottom: 50px;
+    padding-bottom: 70px;
   }
   .projectImage {
     margin: 3px;
