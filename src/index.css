@@ -431,7 +431,7 @@ button.navbar-toggle {
   }
   .projects {
     height: 100%;
-    padding-bottom: 70px;
+    margin-bottom: 50px;
   }
   .projectImage {
     margin: 3px;
