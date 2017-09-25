@@ -321,6 +321,9 @@ button.navbar-toggle {
   margin-top: 15px;
   color: white;
 }
+.year {
+  color: rgba(62, 231, 172, 0.73);
+}
 
 /* Trim */
 .hvr-trim {
@@ -347,10 +350,6 @@ button.navbar-toggle {
 }
 .hvr-trim:hover:before, .hvr-trim:focus:before, .hvr-trim:active:before {
   opacity: 1;
-}
-
-.year {
-  color: rgba(62, 231, 172, 0.73);
 }
 
 
@@ -412,7 +411,7 @@ button.navbar-toggle {
   }
   .about {
     height: 100vh;
-    margin: 10vh 0 5vh 0;
+    margin: 10vh 0 7vh 0;
   }
   .aboutTitle {
     margin-bottom: 20px;
