@@ -69,6 +69,7 @@ span.icon-bar {
   .hvr-grow:focus,
   .hvr-grow:active {
     transform: scale(1.1);
+    text-decoration: none;
   }
 button.navbar-toggle {
   border: 1px solid white !important;
@@ -261,12 +262,13 @@ button.navbar-toggle {
 
 }
 .projectImage {
+  border: 1px solid white;
   margin: 3px;
   width: 380px;
   height: auto;
 }
 .comingSoon{
-  border: 1px solid rgba(255, 255, 255, 0.82);
+  height: 212px;
 }
 
 
@@ -294,61 +296,35 @@ button.navbar-toggle {
   padding: 18px 35px;
 }
 .email:hover {
-  
-}
-/* .contact-form {
-  padding: 0px 15px 0px 15px;
-}
-.form-control {
-  border: 2px solid rgba(0, 0, 0, 0.27);
-  width: 100%;
-  max-width: 100%;
-  height: 3em;
-  font-size: 16px;
-  padding: 1em;
-  margin: .5em 0 2em 0;
-  font-weight: bold;
-}
-textarea {
-  min-height: 10em;
-}
-label {
-  display: inline-block;
-  max-width: 100%;
-  margin-bottom: 5px;
-  font-size: 18px;
-  text-transform: uppercase;
-  font-weight: 500;
-}
-#submit {
-  outline: none;
-  padding: 12px;
-  min-width: 200px;
-  border-radius: 2px;
-  border: 2px solid #FF6363;
-  text-align: center;
-  font-size: 1em;
-  color: #FF6363;
-  background-color: white;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-weight: bold;
-}
-#submit:hover {
-  background-color: #FF6363;
   color: white;
-  -webkit-transition: all 0.3s ease-out;
-  -o-transition: all 0.3s ease-out;
-  -ms-transition: all 0.3s ease-out;
-  -moz-transition: all 0.3s ease-out;
-  transition: all 0.3s ease-out;
-} */
+}
+.contactArrow {
+  margin-top: -5.5px;
+}
 
 
 /* FOOTER */
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 25px;
+  height: 70px;
+}
+.iconBox {
+  background-color: #323131;
+  margin: 10px;
+  width: 55px;
+  height: 55px;
+}
+.iconBox svg {
+  margin-top: 15px;
+  color: white;
+}
 .year {
   color: rgba(62, 231, 172, 0.73);
 }
+
 
 /* MEDIUM SCREEN */
 @media only screen and (max-width: 770px) {
@@ -381,6 +357,9 @@ label {
     margin: 3px;
     width: 350px;
     height: auto;
+  }
+  .comingSoon{
+    height: 195px;
   }
 }
 
@@ -430,6 +409,9 @@ label {
     margin: 3px;
     width: 280px;
     height: auto;
+  }
+  .comingSoon{
+    height: 156px;
   }
 }
 

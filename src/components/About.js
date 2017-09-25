@@ -16,7 +16,7 @@ class About extends Component {
                     <h1 className='aboutTitle'><b>A<span className='underline'>BOU</span>T</b></h1>
                     <div className='aboutContainer'>
                         <div className='aboutMe'>
-                            <img src={require('./images/headshot.png')} className='headshot' />
+                            <img src={require('./images/headshot.png')} className='headshot' alt=''/>
                             <p className='paragraph'>
                                 Hi! I'm an Atlanta based Full-Stack Web Developer focused on creating clean, responsive web apps by maintaining a healthy balance between functionality and a richer user experience in all of my work. 
                                 Whether you're interested in working with me or just want to say hello, <a href='#contact' className='contactMe'>I'd love to hear from you</a>!
@@ -37,7 +37,7 @@ class About extends Component {
                         </div>
                     </div>
                 </div>
-                <img src={require('./images/transition.png')} className='transition'/>
+                <img src={require('./images/transition.png')} className='transition' alt=''/>
             </div>
         );
     }

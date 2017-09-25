@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import {FaAngleDoubleRight} from 'react-icons/lib/fa'
 
 class Contact extends Component {
     render() {
@@ -7,29 +8,10 @@ class Contact extends Component {
                 <h1 className='contactTitle'><b>C<span className='underline'>ONTAC</span>T</b></h1>
                 <p>Have a question or want to work together?</p>
                 <br />
-                <p className='emailContainer'><a href="mailto:rkim0788@gmail.com" className='email'>Email Me</a></p>
+                <p className='emailContainer'><a href="mailto:rkim0788@gmail.com" className='email hvr-grow'>Email Me <FaAngleDoubleRight className='contactArrow'/></a></p>
             </div>
         );
     }
 }
 
 export default Contact;
-
-
-
-{/* <div className="contact-form">
-    <form data-toggle="validator">
-        <div>
-            <input type="text" className="form-control" placeholder="Name" data-error="Field can't be blank!" required />
-        </div>
-        <div>
-            <input type="email" className="form-control" placeholder="Email" data-error="Field can't be blank!" required />
-        </div>
-        <div>
-            <textarea data-minlength="10" className="form-control" placeholder="Message" data-error="Minimum of 10 characters" required></textarea>
-        </div>
-        <div>
-            <button type="submit" id="submit" name="submit">SEND MESSAGE</button>
-        </div>
-    </form> 
-</div> */}
