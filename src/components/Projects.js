@@ -8,7 +8,7 @@ class Projects extends Component {
                     <b>P<span className='underline'>ROJECT</span>S</b>
                 </h1>
                 <div className='projectContainer'>
-                    <a href='http://timber-grader-polecat-82656.bitballoon.com/' target='blank'><img src={require('./images/hangman.png')} alt='' className='projectImage'/></a>
+                    <a href='http://grader-trim-62765.bitballoon.com/' target='blank'><img src={require('./images/hangman.png')} alt='' className='projectImage'/></a>
                     <a href='https://mysterious-waters-71092.herokuapp.com/' target='blank'><img src={require('./images/bucket_by_day.png')} alt='' className='projectImage'/></a>
                     <a href='https://make-it-yourself.herokuapp.com/' target='blank'><img src={require('./images/miy.png')} alt='' className='projectImage'/></a>
                     <a href='http://project-rover.herokuapp.com/' target='blank'><img src={require('./images/rovr.png')} alt='' className='projectImage'/></a>
