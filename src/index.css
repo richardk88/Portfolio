@@ -220,6 +220,7 @@ button.navbar-toggle {
   padding: 10px 0 0 5px;
   letter-spacing: .5px;
   border-left: 2px solid #3EE7AD;
+  text-align: left;
 }
 .contactMe {
   color: #3BD49C;
